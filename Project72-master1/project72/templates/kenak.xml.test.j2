@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<ENR_IN>
+  <EPA_NR_PROJECT rid="#1">
+    <id/>
+    <blg_use>{{ blg_use }}</blg_use>
+    <blg_part>{{ blg_part }}</blg_part>
+    <building_num>{{ building_num }}</building_num>
+    <blg_kaek/>
+  </EPA_NR_PROJECT>
+  <LIBRARIES rid="#2">
+    <id>Lib</id>
+    <lib_const>C:\Program Files (x86)\TEE\TEE_KENAK_1_31\EnrConstGr.xml</lib_const>
+    <lib_clim>C:\Program Files (x86)\TEE\TEE_KENAK_1_31\EnrClimateGR.xml</lib_clim>
+    <lib_fuel>C:\Program Files (x86)\TEE\TEE_KENAK_1_31\EnrFuelGr.xml</lib_fuel>
+  </LIBRARIES>
+  <BUILDING rid="1">
+    {% for param in range(1,11) -%}
+    <blg_parameter{{ loop.index }}>{{ "" }}</blg_parameter{{loop.index}}>
+    {% endfor -%}
+    <blg_parameter11>{{blg_parameter11}}</blg_parameter11>
+    {% for param in range(12,15)  -%}
+    <blg_parameter{{ loop.index+12 }}>{{ "" }}</blg_parameter{{loop.index+12}}>
+    {% endfor -%}
+    <blg_parameter15>{{blg_parameter15}}</blg_parameter15>
+    {% for param in range(16,35)  -%}
+    <blg_parameter{{ loop.index+16 }}>{{ "" }}</blg_parameter{{loop.index+16}}>
+    {% endfor -%}
+    {% for i in range (blg_parameter11 | int) -%}
+    <ZONE{{i+1}} rid="1">
+
+       {% for param in range(1,6) -%}
+      <zn_parameter{{ loop.index }}>{{"" }}</zn_parameter{{loop.index }}>
+        {% endfor -%}
+      <zn_parameter6>{{zn_parameter6zi}}</zn_parameter6>
+        {% for param in range(7,13) -%}
+      <zn_parameter{{loop.index+7 }}>{{"" }}</zn_parameter{{loop.index+7 }}>
+        {% endfor -%}
+     (% endfor -$)
+
+      <zn_parameter13>False</zn_parameter13>
+      <zn_parameter14>2</zn_parameter14>
+      <zn_parameter15>1</zn_parameter15>
+      <ENVELOPE rid="1">
+    {% for i in range (blg_parameter11 | int) -%}
+        <opaque_rows>{{opaque_rows[i]}}</opaque_rows>
+        <opaque_column1>{{opaque_column1zi}}</opaque_column1>
+        <opaque_column2>{{opaque_column2zi}}</opaque_column2>
+        <opaque_column3>{{opaque_column3zi}}</opaque_column3>
+        <opaque_column4>{{opaque_column4zi}}</opaque_column4>
+        <opaque_column5>{{opaque_column5zi}}</opaque_column5>
+        <opaque_column6>{{opaque_column6zi}}</opaque_column6>
+        <opaque_column7>{{opaque_column7zi}}</opaque_column7>
+        <opaque_column8>{{opaque_column8zi}}</opaque_column8>
+        <opaque_column9>{{opaque_column9zi}}</opaque_column9>
+        <opaque_column10>{{opaque_column10zi}}</opaque_column10>
+        <opaque_column11>{{opaque_column11zi}}</opaque_column11>
+        <opaque_column12>{{opaque_column12zi}}</opaque_column12>
+        <opaque_column13>{{opaque_column13zi}}</opaque_column13>
+        <opaque_column14>{{opaque_column14zi}}</opaque_column14>
+        <opaque_column15>{{opaque_column15zi}}</opaque_column15>
+        <opaque_column16>,,,,,,,,,,,,,,</opaque_column16>
+        <ground_rows>0</ground_rows>
+        <ground_column1/>
+        <ground_column2/>
+        <ground_column3/>
+        <ground_column4/>
+        <ground_column5/>
+        <ground_column6/>
+        <ground_column7/>
+        <ground_column8/>
+        <transparent_rows>{{transparent_rowszi}}</transparent_rows>
+        <transparent_column1>{{transparent_column1zi}}</transparent_column1>
+        <transparent_column2>{{transparent_column2zi}}</transparent_column2>
+        <transparent_column3>{{transparent_column3zi}}</transparent_column3>
+        <transparent_column4>{{transparent_column4zi}}</transparent_column4>
+        <transparent_column5>{{transparent_column5zi}}</transparent_column5>
+        <transparent_column6>{{transparent_column6zi}}</transparent_column6>
+        <transparent_column7>{{transparent_column7zi}}}</transparent_column7>
+        <transparent_column8>{{transparent_column8zi}}</transparent_column8>
+        <transparent_column9>{{transparent_column9zi}}</transparent_column9>
+        <transparent_column10>{{transparent_column10zi}}</transparent_column10>
+        <transparent_column11>{{transparent_column11zi}}</transparent_column11>
+        <transparent_column12>{{transparent_column12zi}}</transparent_column12>
+        <transparent_column13>{{transparent_column13zi}}</transparent_column13>
+        <transparent_column14>{{transparent_column14zi}}</transparent_column14>
+        <transparent_column15>{{transparent_column15zi}}</transparent_column15>
+        </ENVELOPE>
+     {% endfor -%}
+    </ZONE{{i+1}}>
+   {% endfor -%}
+        </ENVELOPE>
+
+  </BUILDING>
+</ENR_IN>

@@ -23,12 +23,11 @@
     <blg_parameter7></blg_parameter7>
     <blg_parameter8></blg_parameter8>
     <blg_parameter9></blg_parameter9>
-    <blg_parameter10></blg_parameter10>
-    <blg_parameter11></blg_parameter11>
+    <blg_parameter11>2.0</blg_parameter11>
     <blg_parameter12></blg_parameter12>
     <blg_parameter13></blg_parameter13>
     <blg_parameter14></blg_parameter14>
-    <blg_parameter15></blg_parameter15>
+    <blg_parameter15>1111</blg_parameter15>
     <blg_parameter16></blg_parameter16>
     <blg_parameter17></blg_parameter17>
     <blg_parameter18></blg_parameter18>
@@ -48,40 +47,40 @@
     <blg_parameter32></blg_parameter32>
     <blg_parameter33></blg_parameter33>
     <blg_parameter34></blg_parameter34>
+    <blg_parameter35></blg_parameter35>
     <ZONE1 rid="1">
       <zn_parameter1></zn_parameter1>
       <zn_parameter2></zn_parameter2>
       <zn_parameter3></zn_parameter3>
       <zn_parameter4></zn_parameter4>
       <zn_parameter5></zn_parameter5>
-      <zn_parameter6></zn_parameter6>
+      <zn_parameter6>283.88</zn_parameter6>
       <zn_parameter8></zn_parameter8>
       <zn_parameter9></zn_parameter9>
       <zn_parameter10></zn_parameter10>
       <zn_parameter11></zn_parameter11>
       <zn_parameter12></zn_parameter12>
-      <zn_parameter13></zn_parameter13>
       <zn_parameter13>False</zn_parameter13>
       <zn_parameter14>2</zn_parameter14>
       <zn_parameter15>1</zn_parameter15>
       <ENVELOPE rid="1">
 
-        <opaque_rows>14</opaque_rows>
-        <opaque_column1></opaque_column1>
-        <opaque_column2>T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,P1,OR</opaque_column2>
-        <opaque_column3>45,45,135,45,135,45,135,315,225,315,315,225,45</opaque_column3>
-        <opaque_column4>90,90,90,90,90,90,90,90,90,90,90,90,90,0</opaque_column4>
-        <opaque_column5>7.56,7.95,3.02,10.29,9.75,4.68,11.04,2.93,5.23,4.81,15.72,20.62,1.98,100</opaque_column5>
-        <opaque_column6>0.7,0.7,0.7,0.7,0.7,0.7,0.7,2.44,2.48,2.44,2.50,0.7,2.1,3.05</opaque_column6>
-        <opaque_column7>0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04</opaque_column7>
-        <opaque_column8>0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.2,0.90</opaque_column8>
-        <opaque_column9>0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.80,0.20,0.80</opaque_column9>
-        <opaque_column10>0.918,1,1,1,1,1,1,1,1,1,1,1,1,1</opaque_column10>
-        <opaque_column11>0.878,1,1,1,1,1,1,1,1,1,1,1,1,1</opaque_column11>
-        <opaque_column12>0.584,1,1,0.730,0.707,0.443,0.748,1,1,1,1,1,1,1</opaque_column12>
-        <opaque_column13>0.564,1,1,0.720,0.697,0.396,0.643,1,1,1,1,1,1,1</opaque_column13>
-        <opaque_column14>1,1,0.730,1,0.883,1,1,0.810,0.858,1,0.912,1,1,1</opaque_column14>
-        <opaque_column15>1,1,0.950,1,0.974,1,1,0.660,0.967,1,0.984,1,1,1</opaque_column15>
+        <opaque_rows>opaque_rowsz1</opaque_rows>
+                        <opaque_column1>1z1</opaque_column1>
+                <opaque_column2>2z1</opaque_column2>
+                <opaque_column3>3z1</opaque_column3>
+                <opaque_column4>4z1</opaque_column4>
+                <opaque_column5>5z1</opaque_column5>
+                <opaque_column6>6z1</opaque_column6>
+                <opaque_column7>7z1</opaque_column7>
+                <opaque_column8>8z1</opaque_column8>
+                <opaque_column9>9z1</opaque_column9>
+                <opaque_column10>10z1</opaque_column10>
+                <opaque_column11>11z1</opaque_column11>
+                <opaque_column12>12z1</opaque_column12>
+                <opaque_column13>13z1</opaque_column13>
+                <opaque_column14>14z1</opaque_column14>
+                <opaque_column15>15z1</opaque_column15>
         <opaque_column16>,,,,,,,,,,,,,,</opaque_column16>
         <ground_rows>0</ground_rows>
         <ground_column1/>
@@ -92,22 +91,24 @@
         <ground_column6/>
         <ground_column7/>
         <ground_column8/>
-        <transparent_rows>12</transparent_rows>
-        <transparent_column1>,,,,,,,,,,,,</transparent_column1>
-        <transparent_column2>A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,</transparent_column2>
-        <transparent_column3>0.0,90.0,23.0,45.0,45.0,49.0,49.0,57.3,23.0,23.0,49.0,90.0,</transparent_column3>
-        <transparent_column4>90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,</transparent_column4>
-        <transparent_column5>2.3,6.0,3.0,1.5,1.0,4.0,1.0,0.25,0.36,0.56,0.8,9.0,</transparent_column5>
-        <transparent_column6>,,,,,,,,,,,,</transparent_column6>
-        <transparent_column7>,,,,,,,,,,,,</transparent_column7>
-        <transparent_column8>0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,</transparent_column8>
-        <transparent_column9>0.973,0.957,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column9>
-        <transparent_column10>0.98,0.967,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column10>
-        <transparent_column11>1.0,0.523,0.684,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column11>
-        <transparent_column12>1.0,0.573,0.609,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column12>
-        <transparent_column13>0.854,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column13>
-        <transparent_column14>0.918,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column14>
-        <transparent_column15>,,,,,,,,,,,,</transparent_column15>
+
+
+        <transparent_rows>z1</transparent_rows>
+        <transparent_column1>1z1</transparent_column1>
+        <transparent_column2>2z1</transparent_column2>
+        <transparent_column3>3z1</transparent_column3>
+        <transparent_column4>4z1</transparent_column4>
+        <transparent_column5>5z1</transparent_column5>
+        <transparent_column6>6z1</transparent_column6>
+        <transparent_column7>7z1</transparent_column7>
+        <transparent_column8>8z1</transparent_column8>
+        <transparent_column9>9z1</transparent_column9>
+        <transparent_column10>10z1</transparent_column10>
+        <transparent_column11>11z1</transparent_column11>
+        <transparent_column12>12z1</transparent_column12>
+        <transparent_column13>13z1</transparent_column13>
+        <transparent_column14>14z1</transparent_column14>
+        <transparent_column15>15z1</transparent_column15>
         </ENVELOPE>
       <SYSTEM rid="1">
         <heating rid="1">
@@ -126,40 +127,39 @@
         </lighting>
       </SYSTEM>
     </ZONE1>
-    <ZONE2 rid="1">
+  <ZONE2 rid="1">
       <zn_parameter1></zn_parameter1>
       <zn_parameter2></zn_parameter2>
       <zn_parameter3></zn_parameter3>
       <zn_parameter4></zn_parameter4>
       <zn_parameter5></zn_parameter5>
-      <zn_parameter6>555.0</zn_parameter6>
+      <zn_parameter6>283.88</zn_parameter6>
       <zn_parameter8></zn_parameter8>
       <zn_parameter9></zn_parameter9>
       <zn_parameter10></zn_parameter10>
       <zn_parameter11></zn_parameter11>
       <zn_parameter12></zn_parameter12>
-      <zn_parameter13></zn_parameter13>
       <zn_parameter13>False</zn_parameter13>
       <zn_parameter14>2</zn_parameter14>
       <zn_parameter15>1</zn_parameter15>
       <ENVELOPE rid="1">
 
-        <opaque_rows>8</opaque_rows>
-        <opaque_column1>,,,,,,,,</opaque_column1>
-        <opaque_column2>T1,T2,T3,T4,T5,T6,T7,T8,</opaque_column2>
-        <opaque_column3>0.0,90.0,23.0,45.0,49.0,57.3,45.0,68.0,</opaque_column3>
-        <opaque_column4>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,</opaque_column4>
-        <opaque_column5>9.7,1.8,3.28,2.3,3.8,18.95,7.2,19.2,</opaque_column5>
-        <opaque_column6>1.242,3.04,2.625,2.611,2.665,2.443,2.44,2.44,</opaque_column6>
-        <opaque_column7>0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,</opaque_column7>
-        <opaque_column8>0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,</opaque_column8>
-        <opaque_column9>0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,</opaque_column9>
-        <opaque_column10>0.956,0.951,0.537,1.0,1.0,1.0,1.0,1.0,</opaque_column10>
-        <opaque_column11>0.966,0.961,0.646,1.0,1.0,1.0,1.0,1.0,</opaque_column11>
-        <opaque_column12>0.279,0.603,0.656,0.495,0.388,1.0,1.0,1.0,</opaque_column12>
-        <opaque_column13>0.262,0.647,0.575,0.545,0.348,1.0,1.0,1.0,</opaque_column13>
-        <opaque_column14>0.854,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</opaque_column14>
-        <opaque_column15>0.918,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</opaque_column15>
+        <opaque_rows>opaque_rowsz2</opaque_rows>
+                        <opaque_column1>1z2</opaque_column1>
+                <opaque_column2>2z2</opaque_column2>
+                <opaque_column3>3z2</opaque_column3>
+                <opaque_column4>4z2</opaque_column4>
+                <opaque_column5>5z2</opaque_column5>
+                <opaque_column6>6z2</opaque_column6>
+                <opaque_column7>7z2</opaque_column7>
+                <opaque_column8>8z2</opaque_column8>
+                <opaque_column9>9z2</opaque_column9>
+                <opaque_column10>10z2</opaque_column10>
+                <opaque_column11>11z2</opaque_column11>
+                <opaque_column12>12z2</opaque_column12>
+                <opaque_column13>13z2</opaque_column13>
+                <opaque_column14>14z2</opaque_column14>
+                <opaque_column15>15z2</opaque_column15>
         <opaque_column16>,,,,,,,,,,,,,,</opaque_column16>
         <ground_rows>0</ground_rows>
         <ground_column1/>
@@ -170,22 +170,24 @@
         <ground_column6/>
         <ground_column7/>
         <ground_column8/>
-        <transparent_rows>12</transparent_rows>
-        <transparent_column1>,,,,,,,,,,,,</transparent_column1>
-        <transparent_column2>A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,</transparent_column2>
-        <transparent_column3>0.0,90.0,23.0,45.0,45.0,49.0,49.0,57.3,23.0,23.0,49.0,90.0,</transparent_column3>
-        <transparent_column4>90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,</transparent_column4>
-        <transparent_column5>2.3,6.0,3.0,1.5,1.0,4.0,1.0,0.25,0.36,0.56,0.8,9.0,</transparent_column5>
-        <transparent_column6>,,,,,,,,,,,,</transparent_column6>
-        <transparent_column7>,,,,,,,,,,,,</transparent_column7>
-        <transparent_column8>0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,0.48,</transparent_column8>
-        <transparent_column9>0.973,0.957,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column9>
-        <transparent_column10>0.98,0.967,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column10>
-        <transparent_column11>1.0,0.523,0.684,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column11>
-        <transparent_column12>1.0,0.573,0.609,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column12>
-        <transparent_column13>0.854,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column13>
-        <transparent_column14>0.918,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,</transparent_column14>
-        <transparent_column15>,,,,,,,,,,,,</transparent_column15>
+
+
+        <transparent_rows>z2</transparent_rows>
+        <transparent_column1>1z2</transparent_column1>
+        <transparent_column2>2z2</transparent_column2>
+        <transparent_column3>3z2</transparent_column3>
+        <transparent_column4>4z2</transparent_column4>
+        <transparent_column5>5z2</transparent_column5>
+        <transparent_column6>6z2</transparent_column6>
+        <transparent_column7>7z2</transparent_column7>
+        <transparent_column8>8z2</transparent_column8>
+        <transparent_column9>9z2</transparent_column9>
+        <transparent_column10>10z2</transparent_column10>
+        <transparent_column11>11z2</transparent_column11>
+        <transparent_column12>12z2</transparent_column12>
+        <transparent_column13>13z2</transparent_column13>
+        <transparent_column14>14z2</transparent_column14>
+        <transparent_column15>15z2</transparent_column15>
         </ENVELOPE>
       <SYSTEM rid="1">
         <heating rid="1">
